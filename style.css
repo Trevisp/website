@@ -1,0 +1,42 @@
+.error{
+    color: red;
+}  
+body{
+    background-color: #565952;
+    background-image:url('https://www.kenyageographic.com/wp-content/uploads/2023/10/nairobi-worlds-best-city-to-visit.jpg') ;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+input{
+    border:1px solid white;
+    border-radius: 3px;
+    color: black;
+}
+h2{
+    text-align:center ;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid white;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 3px;
+}
+button{
+    padding: 15px;
+    background-color: #00AFFF;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    width: 150px;
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color:#6CBCFF ;
+}

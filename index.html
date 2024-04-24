@@ -1,0 +1,40 @@
+<!DOCTYPE htnl>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+        <title>validation</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <h2>Registration form</h2>
+        <form id="registrationForm">
+            <div>
+                <label for="Username">Username <br>
+                    <input type="text"  id="username" /><br>
+                    <span id="usernameError" class="error"></span>
+                </label>
+            </div><br />
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="email" name="email" id="email"/><br>
+                <span id="emailError" class="error"></span>
+            </div><br />
+            <div>
+                <label for="Password">Password<br>
+                    <input type="password" name="password" id="password" /><br>
+                    <span id="passwordError" class="error"></span>
+                </label>
+            </div><br />
+            <div>
+                <label for="confirmPassword">Confirm Password<br>
+                    <input type="password" name="confirmPassword" id="confirmPassword"/> <br>
+                    <span id="confirmPasswordError"class="error"></span>
+                </label>
+            </div><br />
+            <button type="submit">Submit</button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
